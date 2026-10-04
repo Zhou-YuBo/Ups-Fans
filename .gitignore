@@ -1,0 +1,30 @@
+# --- frontend ---
+frontend/node_modules/
+frontend/.nuxt/
+frontend/.output/
+frontend/.data/
+frontend/dist/
+frontend/.env
+frontend/.Nitro/
+frontend/*.log
+
+# --- backend ---
+backend/.venv/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.env
+
+# --- 状态/凭证（铁律：任何 B 站凭证与运行时状态不入库）---
+*credential*.json
+*state*.json
+*.session
+.env
+.env.*
+!.env.example
+
+# --- OS/编辑器 ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+!.vscode/extensions.json
